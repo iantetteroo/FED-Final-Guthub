@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+ <div id="bg">
+    <img src="images/vakantieuitgelicht.jpg" class="big">
+ </div>
+<body>
+   <form class="form" action="/index2.html">
+       <span class="imgflix">
+           <img src="images/flixbus.png">
+       </span>
+       <fieldset class="required">
+        <label for="naam">Naam</label>
+            <p>Laat ons weten hoe je heet!</p>
+        <input type="text" id="naam" name="user_name" required class="inputfield">
+        <label for="howto"></label>
+            <p>Hoe ben je op onze site terecht gekomen?</p>
+        <input type="text" id="naam" name="user_name" required>
+        <button type="submit" class="submitOK">Bedankt!</button>
+        </fieldset>
+        <fieldset class="radio">
+            <input type="radio" id="geslacht"
+             name="geslacht">
+            <label for="man">Man</label>
+
+            <input type="radio" id="geslacht"
+             name="geslacht">
+            <label for="vrouw">Vrouw</label>
+
+            <input type="radio" id="geslacht"
+             name="geslacht">
+            <label for="anders">Anders</label>
+       </fieldset>
+        <label for="leeftijd">Leeftijd</label>
+            <select id="leeftijd" name="leeftijd">
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="21+">Ouder dan 21</option>
+            </select>
+        <label for="email">Emailadres*</label>
+        <input type="email" id="email" name="emailadres">
+            <p>*Laat je emailadres bij ons achter zodat we je op de hoogte kunnen houden!</p>
+        <div class="submitholder">
+        <input type="submit" value="Login" class="submit">
+        </div>
+   </form>
+
+</body>
+</html>
